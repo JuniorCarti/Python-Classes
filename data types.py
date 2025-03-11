@@ -88,11 +88,19 @@ print(first[1:])
 print(first.startswith("R"))
 print(first.endswith("E"))
 
-#Boolean data type - Working with true or false data types
+
 myValue = True
 x = bool(False)
 print(type(x))
 print(isinstance(myValue, bool))
+
+#numeric data types
+#integer type
+
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
 
 
 
