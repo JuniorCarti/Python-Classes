@@ -20,4 +20,19 @@ last = "Junior"
 fullname = first + " " + last
 print(fullname)
 
+fullname += "!"
+print(fullname)
+
+#casting a number to a string
+decade = str(1980)
+print(type(decade))
+print(decade)
+
+statement = "I like rock music from the "  + decade + "S."
+print(statement)
+
+#multiple lines
+
+
+
 
