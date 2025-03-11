@@ -121,6 +121,13 @@ print(round(gpa))
 
 print(round(gpa, 1))
 
+#math module
+import math
+
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
 
 
 
