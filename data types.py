@@ -23,7 +23,7 @@ print(fullname)
 fullname += "!"
 print(fullname)
 
-#casting a number to a string
+
 decade = str(1980)
 print(type(decade))
 print(decade)
@@ -31,7 +31,15 @@ print(decade)
 statement = "I like rock music from the "  + decade + "S."
 print(statement)
 
-#multiple lines
+#Multiple lines
+multiline = '''
+Hey, how are you?
+
+I was just checking in.
+                                All good?
+                            
+'''
+print(multiline)
 
 
 
