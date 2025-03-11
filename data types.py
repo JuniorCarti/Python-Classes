@@ -11,7 +11,13 @@ last = "Junior"
 
 #constructor
 
-pizza = str("Pepperoni")
-print(type(pizza))
-print(type((pizza)) == str)
-print(isinstance(pizza, str))
+# pizza = str("Pepperoni")
+# print(type(pizza))
+# print(type((pizza)) == str)
+# print(isinstance(pizza, str))
+
+#Concatenation - adding two strings together to form a larger string
+fullname = first + " " + last
+print(fullname)
+
+
