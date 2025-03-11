@@ -88,6 +88,12 @@ print(first[1:])
 print(first.startswith("R"))
 print(first.endswith("E"))
 
+#Boolean data type - Working with true or false data types
+myValue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myValue, bool))
+
 
 
 
