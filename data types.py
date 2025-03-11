@@ -56,5 +56,25 @@ print(multiline.title())
 print(multiline.replace("good", "ok"))
 print(multiline)
 
+print(len(multiline))
+multiline += "                                                 "
+multiline = "                                   " + multiline
+print(len(multiline))
+
+print(len(multiline.strip()))
+print(len(multiline.lstrip()))
+print(len(multiline.rstrip()))
+
+print("")
+
+#Build a menu
+
+title = "menu".upper()
+print(title.center(20, "="))
+print("Cofee".ljust(16,".")  + "$1".rjust(4))
+print("Tea".ljust(16,".")  + "$5".rjust(4))
+print("Mango Juice".ljust(16,".")  + "$13".rjust(4))
+
+
 
 
