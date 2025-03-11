@@ -121,14 +121,24 @@ print(round(gpa))
 
 print(round(gpa, 1))
 
-#math module
+
 import math
 
 print(math.pi)
 print(math.sqrt(64))
 print(math.ceil(gpa))
 print(math.floor(gpa))
+print(math.tan(60))
+print(math.log10(45))
 
+
+#Casting a String to a number
+zipcode = "30100"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+#Error if you attempt to cast incorrect data
+#zip_value = int("Nairobi")
 
 
 
