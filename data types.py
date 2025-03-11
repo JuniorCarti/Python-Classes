@@ -102,6 +102,11 @@ best_price = int(80)
 print(type(price))
 print(isinstance(best_price, int))
 
+# float types ; have decimals
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+
 
 
 
