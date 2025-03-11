@@ -77,13 +77,16 @@ print("Mango Juice".ljust(16,".")  + "$13".rjust(4))
 
 print("")
 
-#String Index Values
+
 
 print(first[1])
 print(first[-1])
 print(first[1:-1])
 print(first[1:])
 
+#Some methods return boolean data
+print(first.startswith("R"))
+print(first.endswith("E"))
 
 
 
