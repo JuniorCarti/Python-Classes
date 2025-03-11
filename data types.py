@@ -75,6 +75,17 @@ print("Cofee".ljust(16,".")  + "$1".rjust(4))
 print("Tea".ljust(16,".")  + "$5".rjust(4))
 print("Mango Juice".ljust(16,".")  + "$13".rjust(4))
 
+print("")
+
+#String Index Values
+
+print(first[1])
+print(first[-1])
+print(first[1:-1])
+print(first[1:])
+
+
+
 
 
 
